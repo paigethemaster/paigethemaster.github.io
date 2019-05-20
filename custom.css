@@ -1,1 +1,76 @@
+/*----------document standards----------*/
+h1 {
+    font-family: neue-kabel;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
 
+p {
+    font-family: neue-kabel;
+    font-size: .85em;
+    color: white;
+    font-weight:100;
+}
+
+.black {
+    background-color: black;
+    height: 100vh;
+}
+
+/*----------nav------------*/
+ul {
+    position: fixed;
+    list-style-type: none;
+    transition: 2s;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: neue-kabel;
+    text-transform: uppercase;
+    font-size: 0.65em;
+    color: #000;
+    transition: 2s;
+}
+
+li a:hover {
+    color: #ee2a27;
+    text-decoration: line-through;
+}
+
+/*----------hero----------*/
+@keyframes scaleup {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.grow {
+    animation: scaleup 5s;
+}
+
+.grow {
+    transition-duration: 5s;
+}
+
+.hero {
+    transition: 1s;
+}
+
+/*----------footer----------*/
+footer {
+    background-color: #000;
+    position: absolute;
+    padding-top: 10%;
+    height: 30vh;
+    width: 100vw;
+    text-transform: uppercase;
+    text-align: center;
+}
