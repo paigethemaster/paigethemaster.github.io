@@ -1,1 +1,99 @@
-<h1>Paige Flock</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!---------- Basic Page Needs ---------->
+    <meta charset="utf-8">
+    <title>SQUEEJAW</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+  <!---------- Mobile Specific Metas ---------->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!---------- FONT ---------->
+    <link rel="stylesheet" href="https://use.typekit.net/hex5myd.css">
+
+  <!---------- CSS ---------->
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="index.css">
+
+  <!---------- Favicon ---------->
+    <link rel="icon" type="image/png" href="images/personallogosymbol.png">
+    
+  <!---------- javascript ---------->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 0){
+                    $(".hero").css({"opacity" : "0"})
+                }
+                else {
+                    $(".hero").css({"opacity" : "1"})
+                }
+            })
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 0){
+                    $(".nav").css({"background" : "#000"})
+                }
+                else {
+                    $(".nav").css({"background" : "white"})
+                }
+            })
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 0){
+                    $("li a").css({"color" : "white"})
+                }
+                else {
+                    $("li a").css({"color" : "#000"})
+                }
+            })
+        });
+    </script>
+
+</head>
+<body>
+
+  <!---------- Primary Page Layout ---------->
+    <div class="nav">
+        <div class="row">
+            <ul>
+                <li><a href="index.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="row">
+            <div class="twelve columns" style="text-align: center">
+                <div class="grow">
+                    <img src="images/personallogohorizontal.png" style="width: 75vw;margin-top: 30vh;margin-bottom: 30vh">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="black">
+        <div class="container">
+            <div class="row" style="padding-top: 10%">
+                <div class="four columns">
+                    <img src="images/" style="width:20vw;">
+                </div>
+                <div class="four columns">
+                    <img src="images/">
+                </div>
+                <div class="four columns">
+                    <img src="images/">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2019 Paige Flock</p>
+        <img src="images/personallogosymbolwhite.png" style="width:75px">
+    </footer>
+<!---------- End Document ---------->
+</body>
+</html>
