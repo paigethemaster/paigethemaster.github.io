@@ -1,28 +1,28 @@
 /*----------document standards----------*/
 h1 {
     font-family: neue-kabel;
-    font-size: 3em;
+    font-size: 7.5vw;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 700;
+    color: #000;
+    position:
 }
 
 p {
     font-family: neue-kabel;
     font-size: .85em;
-    color: white;
-    font-weight:100;
+    color: #000;
+    font-weight:300;
 }
 
-.black {
-    background-color: black;
-    height: 100vh;
+#contact {
+    background-color: #000;
 }
 
 /*----------nav------------*/
 ul {
     position: fixed;
     list-style-type: none;
-    transition: 2s;
 }
 
 li a {
@@ -33,7 +33,6 @@ li a {
     text-transform: uppercase;
     font-size: 0.65em;
     color: #000;
-    transition: 2s;
 }
 
 li a:hover {
@@ -42,31 +41,10 @@ li a:hover {
 }
 
 /*----------hero----------*/
-@keyframes scaleup {
-  0% {
-    transform: scale(0.1);
-    opacity: 0;
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-.grow {
-    animation: scaleup 5s;
-}
-
-.grow {
-    transition-duration: 5s;
-}
-
-.hero {
-    transition: 1s;
-}
 
 /*----------footer----------*/
 footer {
-    background-color: #000;
+    background-color: white;
     position: absolute;
     padding-top: 10%;
     height: 30vh;
