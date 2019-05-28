@@ -1,88 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!---------- Basic Page Needs ---------->
     <meta charset="utf-8">
     <title>SQUEEJAW</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
+  <!---------- Mobile Specific Metas ---------->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!---------- FONT ---------->
     <link rel="stylesheet" href="https://use.typekit.net/hex5myd.css">
 
+  <!---------- CSS ---------->
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="skeleton.css">
     <link rel="stylesheet" href="index.css">
 
+  <!---------- Favicon ---------->
     <link rel="icon" type="image/png" href="images/personallogosymbol.png">
-
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $(window).scroll(function(){
-                if ($(this).scrollTop() > 0){
-                    $(".hero").css({"opacity" : "0"})
-                }
-                else {
-                    $(".hero").css({"opacity" : "1"})
-                }
-            })
-            $(window).scroll(function(){
-                if ($(this).scrollTop() > 0){
-                    $(".nav").css({"background" : "#000"})
-                }
-                else {
-                    $(".nav").css({"background" : "white"})
-                }
-            })
-            $(window).scroll(function(){
-                if ($(this).scrollTop() > 0){
-                    $("li a").css({"color" : "white"})
-                }
-                else {
-                    $("li a").css({"color" : "#000"})
-                }
-            })
-        });
-    </script>
-
+  
 </head>
 <body>
 
+  <!---------- Primary Page Layout ---------->
     <div class="nav">
         <div class="row">
             <ul>
-                <li><a href="index.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#hero">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#contact">Contact</a>
+                </li>
             </ul>
         </div>
     </div>
-    <div class="hero">
+    <div id="hero">
         <div class="row">
             <div class="twelve columns" style="text-align: center">
-                <div class="grow">
-                    <img src="images/personallogohorizontal.png" style="width: 75vw;margin-top: 30vh;margin-bottom: 30vh">
-                </div>
+                <img src="images/Paige-2.jpg" style="width:35vw;margin-top:5vh;position:relative;z-index:-1">
+            </div>
+            <div class="twelve columns">
+            <h1 style="margin-left: 20vw;margin-top:-60vh;">PAIGE</h1>
+            <h1 style="margin-left: 58vw; margin-top: -10vh">FLOCK</h1>
             </div>
         </div>
     </div>
-    <div class="black">
-        <div class="container">
-            <div class="row" style="padding-top: 10%">
-                <div class="four columns">
-                    <img src="images/" style="width:20vw;">
-                </div>
-                <div class="four columns">
-                    <img src="images/">
-                </div>
-                <div class="four columns">
-                    <img src="images/">
+    <div class="container">
+        <div class="row" style="margin-top: 3vh">
+            <div class="five columns offset-by-one">
+                <p>My name is Paige and I am a designer currently living in Bellingham, Washington. I am a senior at Western Washington University where I study design and art history. Before my time at Western, I became interested in design when I was getting my Associates Degree and working in the scene shop for the theatre department at Centralia College. Being involved in orchestra, theatre, and dance from a young age made me interested in the fine arts, but what interested me the most was how these things function and are brought to life. For me, design was the answer.
+                </p>
+            </div>
+            <div class="five columns">
+                <p>I enjoy many types of design, my favorites being brand identity, motion graphics, and stage design. In the future when I get out into the real world I wouldn't mind relocating to Olympia or Portland to work for a design firm or somewhere that I can combine my loves of dance, theatre, and design. On the rare occasion when I am not thinking about work and school I like to take ballet classes, play video games, listen to murder podcasts, and chill out with my dog Steve.
+                </p>    
+            </div>
+        </div>
+        <div class="row">
+            <div class="four columns">
+                
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">    
+            <div class="row">
+                <div class="twelve columns">
+                    <h1 style="text-align: center;color:white">CALL ME.</h1>
+                    <p style="color:white;text-align: center">Or don't. Here's my contact information.
+                    <br>
+                    Website | paigeflock.com
+                    <br>
+                    Email | paige_o_flock@hotmail.com</p>
                 </div>
             </div>
         </div>
     </div>
     <footer>
         <p>&copy; 2019 Paige Flock</p>
-        <img src="images/personallogosymbolwhite.png" style="width:75px">
+        <img src="images/personallogosymbol.png" style="width:75px">
     </footer>
-
+<!---------- End Document ---------->
 </body>
-
+</html>
